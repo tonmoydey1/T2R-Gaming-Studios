@@ -9,6 +9,7 @@
     content="Meet Tonmoy Dey, indie game developer building T2R Gaming Studios and original games for mobile and PC.">
   <title>About | T2R Gaming Studios</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
   <script src="app.js" defer></script>
 </head>
 
@@ -16,19 +17,38 @@
   <a class="skip" href="#main">Skip to content</a>
   <header></header>
   <main id="main" class="about-page">
-    <section class="about-intro">
-      <div class="about-intro-copy"><div class="eyebrow">About T2R Gaming Studios</div><h1>One developer.<br>Original ideas.<br><span class="red">Worlds to build.</span></h1><p>An independent game studio focused on creating original games for mobile and PC.</p><a class="text-link" href="#developer">MEET THE DEVELOPER <span>↓</span></a></div>
-      <div class="about-emblem" aria-hidden="true"><div class="emblem-ring"></div><img src="assets/t2r-logo.png" alt=""><span class="emblem-label">CREATIVITY + PROBLEM-SOLVING</span></div>
+    <section class="about-intro" aria-labelledby="about-title">
+      <div class="about-intro-copy"><div class="eyebrow">About T2R Gaming Studios</div><h1 id="about-title">Small studio.<br>Big imagination.<br><span class="red">A love for play.</span></h1><p>T2R Gaming Studios is an independent studio by Tonmoy Dey, bringing original ideas to life for mobile and PC.</p><a class="text-link" href="#developer">MEET THE DEVELOPER</a></div>
+      <div class="about-emblem" aria-hidden="true"><span class="emblem-corner">INDEPENDENT BY DESIGN</span><div class="emblem-ring"></div><img src="assets/t2r-logo.png" alt=""><span class="emblem-label">IMAGINE. BUILD. PLAY.</span></div>
     </section>
     <section class="developer-section" id="developer" aria-labelledby="developer-title">
-      <div class="developer-card"><span class="eyebrow">Behind the studio</span><div class="developer-monogram" aria-hidden="true">Td<span>+</span></div><div><h2>Tonmoy Dey</h2><p>Indie Game Developer<br>Building T2R Gaming Studios</p></div><div class="developer-card-line"><span>IMAGINE.</span><span>BUILD.</span><span>PLAY.</span></div></div>
-      <div class="developer-story"><span class="eyebrow">A personal introduction</span><h2 id="developer-title">Hi, I’m <span class="red">Tonmoy Dey</span><br>— Indie Game Developer.</h2><p class="about-lead">I’m building <strong>T2R Gaming Studios</strong>, an independent game studio focused on creating original games for <strong>mobile and PC</strong>.</p><p>For me, game development brings creativity and problem-solving together. I enjoy exploring gameplay ideas, building worlds, and shaping the small details that make a game feel good to play.</p><blockquote>My goal is to create games with their own identity—experiences that spark curiosity, offer a challenge, and give players a reason to come back.</blockquote></div>
+      <div class="developer-card">
+        <div class="portrait-frame"><img class="developer-photo" src="assets/tonmoy-dey.jpeg" alt="Tonmoy Dey, developer behind T2R Gaming Studios" width="960" height="1280" loading="lazy"><span class="portrait-label">BEHIND THE STUDIO</span></div>
+        <div class="developer-identity"><div><h2>Tonmoy Dey</h2><p>Independent Game Developer</p></div></div>
+        <div class="developer-card-line"><span>IMAGINE.</span><span>BUILD.</span><span>PLAY.</span></div>
+      </div>
+      <div class="developer-story">
+        <span class="eyebrow">The person behind the pixels</span>
+        <h2 id="developer-title">Hi, I’m <span class="red">Tonmoy.</span><br>I turn ideas<br>into <span class="story-outline">experiences.</span></h2>
+        <p class="about-lead">I’m building <strong>T2R Gaming Studios</strong>—an independent studio creating original games for <strong>mobile and PC.</strong></p>
+        <p>I love the place where creativity meets problem-solving: exploring gameplay ideas, building worlds, and refining the little details that make a game feel good to play.</p>
+        <blockquote><span class="quote-label">THE GOAL</span>Games with their own identity. Experiences that spark curiosity, offer a challenge, and give you a reason to come back.</blockquote>
+        <a class="text-link developer-connect" href="contact.html">Let’s create something worth playing</a>
+      </div>
     </section>
-    <section class="about-platforms" aria-labelledby="make-title"><div class="section-head"><div><span class="eyebrow">Two platforms. One creative vision.</span><h2 id="make-title">What We <span class="red">Make</span></h2></div><p>Original experiences.<br>Designed around how you play.</p></div><div class="about-platform-grid">
+    <section class="about-values" aria-labelledby="values-title">
+      <div class="values-heading"><div class="eyebrow">The way I build</div><h2 id="values-title">Good games begin<br>with <span class="red">a little curiosity.</span></h2></div>
+      <div class="values-list">
+        <article><span class="value-index">01</span><div><h3>Explore the idea.</h3><p>Start with a question, try something unexpected, and find the spark that makes an experience feel different.</p></div></article>
+        <article><span class="value-index">02</span><div><h3>Find the feeling.</h3><p>Shape the controls, challenges, and small details around what matters most: how it feels to play.</p></div></article>
+        <article><span class="value-index">03</span><div><h3>Keep building.</h3><p>Learn through experimentation. Refine what works and bring each game closer to its own identity.</p></div></article>
+      </div>
+    </section>
+    <section class="about-platforms" aria-labelledby="make-title"><div class="section-head"><div><span class="eyebrow">Two platforms. One creative vision.</span><h2 id="make-title">Different screens.<br><span class="red">The same creative spirit.</span></h2></div><p>Original experiences.<br>Designed around how you play.</p></div><div class="about-platform-grid">
       <article class="about-platform-card"><div class="platform-card-top"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><rect x="18" y="5" width="28" height="54" rx="5"/><path d="M26 12h12M28 51h8M27 29h10M32 24v10"/></svg></div><h3>Mobile Games</h3><p>Games designed for touch, with intuitive controls and engaging gameplay you can enjoy wherever you are.</p><span class="platform-card-caption">PLAY ANYWHERE.</span></article>
       <article class="about-platform-card"><div class="platform-card-top"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><rect x="5" y="9" width="54" height="35" rx="3"/><path d="M24 55h16M32 44v11M5 36h54M27 21l-5 5 5 5M37 21l5 5-5 5"/></svg></div><h3>PC Games</h3><p>Experiences built for the desktop, with responsive controls, rewarding challenges, and worlds to explore.</p><span class="platform-card-caption">DISCOVER MORE.</span></article>
     </div></section>
-    <section class="about-journey"><div><span class="eyebrow">Learning. Experimenting. Building.</span><h2>Thanks for being<br>part of <span class="red">the journey.</span></h2><p>I’m learning, experimenting, and building along the way. This website is where I’ll share my games, upcoming projects, and development progress.</p><a class="button" href="games.html">Explore our games <span>↗</span></a></div><a class="journey-game" href="games.html"><span class="badge">IN DEVELOPMENT</span><span class="journey-game-title">OVERDRIVE<br>ORBIT<span class="red">↗</span></span><span>OUR FIRST GAME. YOUR NEXT RACE.</span></a></section>
+    <section class="about-journey"><div><span class="eyebrow">Learning. Experimenting. Building.</span><h2>The journey starts<br>with <span class="red">Overdrive Orbit.</span></h2><p>My first project is a mobile car racing game, currently in development. Follow along as I share progress, explore new ideas, and work towards the starting line.</p><a class="button" href="games.html">Explore Overdrive Orbit</a></div><a class="journey-game" href="games.html"><span class="badge">IN DEVELOPMENT</span><span class="journey-game-title">OVERDRIVE<br>ORBIT<span class="red">.</span></span><span>OUR FIRST GAME. YOUR NEXT RACE.</span></a></section>
   </main>
   <footer></footer>
 </body>
